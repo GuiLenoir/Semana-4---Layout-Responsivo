@@ -1,0 +1,176 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  font-size: 150%;
+  display: block;
+  text-align: left;
+}
+img{
+  max-width:100%;
+  display:block;
+}
+
+.cabecalho{
+  background-color: #2e2e2e;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu{
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  text-decoration: none;
+  margin-right:50px;
+}
+.menu li{
+  color:grey;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.menu li a{
+  color:#dedede;
+  text-decoration:none;
+}
+.menu li a:hover{
+  color:#ffffff;
+}
+
+.footer{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  background-color:#4d4d4d;
+  padding:10px;
+  margin-top: 10px;
+  color:white
+}
+
+.titulo{
+  margin-left:50px;
+}
+
+.menulateral li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  list-style: none;
+  text-decoration: none;
+  padding:10px;
+  border-style:solid;
+  border-color:grey;
+  border-width:2px;
+  width:150px;
+}
+
+
+.nomeloja{
+  margin-left: 50px;
+}
+
+.categorias{
+  margin-left:10px;
+  color: #00aaff
+}
+
+.categorias a{
+  color: #00aaff;
+  text-decoration: none;
+}
+
+.categorias a:hover{
+  color: #86e0fe;
+}
+
+
+#banner{
+  width: 50%;
+  min-width: 30%;
+    display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#etc{
+   width: 50%;
+    display: flex;
+  justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  padding: 20px;
+  list-style: none;
+}
+
+#img1 h3{
+  text-align: left;
+  margin-left: 20px;
+  color: #0077b3;
+}
+#img1 h5{
+  text-align: left;
+  margin-left: 20px;
+  font-style: bold;
+}
+
+#img1 p{
+  float: left;
+  max-width: 180px;
+  margin-left: 10px;
+}
+
+
+
+
+#img2 h3{
+  text-align: left;
+  margin-left: 20px;
+  color: #0077b3;
+}
+#img2 h5{
+  text-align: left;
+  margin-left: 20px;
+  font-style: bold;
+}
+
+#img2 p{
+  float: left;
+  max-width: 180px;
+  margin-left: 10px;
+}
+
+
+
+#img3 h3{
+  text-align: left;
+  margin-left: 20px;
+  color: #0077b3;
+}
+#img3 h5{
+  text-align: left;
+  margin-left: 20px;
+  font-style: bold;
+}
+
+#img3 p{
+  float: left;
+  max-width: 180px;
+  margin-left: 10px;
+}
